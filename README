@@ -2,6 +2,11 @@ DMX-to-I2C bridge, initially intended to support the NXP PCA9635 16-channel dimm
 
 DMX code based on Henne's DMX reception code from http://www.hoelscher-hi.de/hendrik/english/ressources.htm
 
+Targeted at Atmel ATMegaXX8 microcontrollers with a 16 MHz external crystal.  (i.e. Arduino hardware)
+
+Uploading this via the Arduino bootloader is UNTESTED - I use a USBTinyISP from Adafruit:
+http://www.adafruit.com/index.php?main_page=product_info&cPath=16&products_id=46
+
 TODO:
 Programmable DMX start address (currently hardcoded)
 Programmable I2C address for PCA9635 (currently hardcoded)
