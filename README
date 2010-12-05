@@ -1,0 +1,8 @@
+DMX-to-I2C bridge, initially intended to support the NXP PCA9635 16-channel dimmer ICs
+
+DMX code based on Henne's DMX reception code from http://www.hoelscher-hi.de/hendrik/english/ressources.htm
+
+TODO:
+Programmable DMX start address (currently hardcoded)
+Programmable I2C address for PCA9635 (currently hardcoded)
+Support for multiple PCA9635s
